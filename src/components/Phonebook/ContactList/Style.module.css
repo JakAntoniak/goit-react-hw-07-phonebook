@@ -1,0 +1,19 @@
+.deleteButton {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px 0;
+  border: none;
+  background-color: rgb(192, 189, 189);
+  border-radius: 8px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.deleteButton:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
+
+.deleteButton {
+  margin: 5px;
+  width: 20%;
+}

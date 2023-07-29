@@ -1,0 +1,32 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form > input,
+.filter > input {
+  width: 300px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid darkgray;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(192, 189, 189);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: darkgray;
+}
